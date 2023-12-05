@@ -1,0 +1,17 @@
+{
+    "www.69shuba.com":{
+        "search":{
+            "method": "post",
+            "action": "https://www.69shuba.com/modules/article/search.php",
+            "form":{
+                "searchtype":"all",
+                "searchkey":""
+            },
+            "bookName":"body > div.container > div > ul > li > div > div > ul > li:nth-child(2) > div.newnav > h3 > a"
+        },
+        "info":{
+            "method": "get",
+            "bookName" : ""
+        }
+    }
+}
